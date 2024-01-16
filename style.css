@@ -1,0 +1,29 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 12px;
+}
+.special-class {
+  background-color: yellow;
+  font-weight: bold;
+}
+.dialogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.dialog {
+  min-width: 150px;
+  min-height: 150px;
+  padding: 8px;
+  box-shadow: 8px 8px 8px #aaa;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+.dialog .close {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
